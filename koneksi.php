@@ -8,7 +8,7 @@ $db='database';
 $conn = mysqli_connect($server,$user,$ps,$db);
 
 if(!$conn){
-	echo "query gagal!!!";
+	echo "Connect failed!!!";
 }
 
 
