@@ -17,7 +17,7 @@ $results=mysqli_fetch_all($query, MYSQLI_ASSOC);
 
 <body class="daftar">
 <div class="container jumbotron">
-	<h3>DAFTAR PEGAWAI</h3>
+	<h3>DAFTAR PEGAWAI1</h3>
 		<a href="form_daftar.php" style="color:#932114;">[+]Tambah Data</a>
 	<table border="1" cellpadding="10" cellspacing="0" class="table" style="margin-top: 0px">
 		<thead>
