@@ -1,14 +1,14 @@
 <?php
 
 $server='localhost';
-$user='sains';
-$ps='asdfh123';
-$db='dinas';
+$user='user';
+$ps='password';
+$db='database';
 
 $conn = mysqli_connect($server,$user,$ps,$db);
 
 if(!$conn){
-	echo "query gagal!!!";
+	echo "Connect failed!!!";
 }
 
 
